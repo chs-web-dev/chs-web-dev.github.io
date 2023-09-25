@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHS Web Dev Club</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/shared.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+</head>
+<body>
+    <div id="nav-container"></div>
+    <div id="content">
+        <div id="about-us">
+            <h1>What We Do</h1>
+            <p>The Centennial Web Dev club teaches students frontend and backend development. You will learn HTML, CSS, and JavaScript and how to create your own website, just like this one! We meet the second and fourth Tuesday of every month at 2:40 pm in room 409 (Hobson).</p>
+        </div>
+        <div id="meetings">
+            <h1>Meetings</h1>
+            <p>We meet the second and fourth Tuesday of every month (unless it's a day off). Check the next meeting with the calendar below!</p>
+            <div id="calendar-container"></div>
+        </div>
+    </div>
+    <script>
+        $("#nav-container").load("assets/components/nav.html");
+        $("#calendar-container").load("assets/components/calendar.html");
+    </script>
+</body>
+</html>

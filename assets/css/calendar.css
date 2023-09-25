@@ -1,0 +1,54 @@
+#meetings {
+    max-width: 727px;
+}
+
+#calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#calendar-previous, #calendar-next {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#month {
+    margin-left: 15px;
+}
+
+#calendar th {
+    padding-inline: 15px;
+}
+
+#calendar td {
+    text-align: center;
+    padding-block: 10px;
+}
+
+.calendar-meeting {
+    background-color: rgb(185, 232, 239);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.calendar-disabled {
+    background-color: rgb(240, 240, 240);
+    padding: 5px;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+button:disabled {
+    cursor: not-allowed !important;
+}
+
+@media only screen and (max-width: 768px) {
+    #calendar {
+        display: none;
+    }
+}
