@@ -30,10 +30,10 @@
 }
 
 #logo {
-    width: 60px;
+    width: 80px;
     border-radius: 50%;
-    margin: 10px 0 0 10px;
     float: left;
+    margin-left: 10px;
 }
 
 #nav-links {
@@ -69,4 +69,45 @@
     cursor: pointer;
     transition: 0.3s;
     text-decoration: none;
+}
+
+.nav-button:hover {
+    background-color: rgb(105, 115, 196);
+}
+
+#menu {
+    font-size: 30px;
+    color: #000;
+    cursor: pointer;
+    display: none;
+    outline: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.active {
+    display: flex !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+@media screen and (max-width: 768px) {
+    #nav {
+        height: 65px;
+    }
+
+    #nav-title {
+        font-size: 20px;
+    }
+
+    #nav-right {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+        margin-right: 30px;
+    }
 }

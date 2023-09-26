@@ -1,0 +1,44 @@
+#cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card {
+    border-radius: 0.5rem;
+    background-color: rgba(112, 121, 192, 0.243);
+    width: 300px;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    object-fit: cover;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 5px #fff;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.role {
+    font-size: 1.1rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+    margin-top: -5px;
+    color: #515151;
+    margin-bottom: 0;
+}
