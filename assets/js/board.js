@@ -5,12 +5,10 @@
 </div> */
 
 const board = [
-    ["assets/images/ayush.jpg", "Ayush Ghosh", "President"],
     ["assets/images/raiyan.jpg", "Raiyan Zaman", "President"],
     ["assets/images/rishi.jpg", "Rishi Selvamani", "President"],
     ["assets/christian.jpg", "Christian Cha", "Vice President"],
     ["assets/images/sai.png", "Sai Siddhish Chandra Sekaran", "Vice President"],
-    ["assets/images/cristobal.jpg", "Cristobal Mejia", "Social Media Manager"],
 ];
 
 const boardContainer = document.querySelector("#cards");
